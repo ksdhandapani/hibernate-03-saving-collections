@@ -5,10 +5,11 @@ In this example, we are going to save an collection as a dependent list of entit
 
 Postman request details for saving an employee with list of addresses related to paricular employee.
 
-Method : POST
-Request URL : http://localhost:8080/hibernate-03-saving-collections/api/employee
-Request Body :
+- **Method :** POST
+- **Request URL :** http://localhost:8080/hibernate-03-saving-collections/api/employee
+- **Request Body :**
 
+```
 {
 	"employeeId": 0,
 	"employeeName":"Chandru R",
@@ -28,10 +29,11 @@ Request Body :
 		
 	}]
 }
+```
 
-Response Body :
+**Response Body :**
 
-{
+```{
     "data": {
         "employeeId": 1,
         "employeeName": "Chandru R",
@@ -56,3 +58,4 @@ Response Body :
     "exception": false,
     "success": true
 }
+```
